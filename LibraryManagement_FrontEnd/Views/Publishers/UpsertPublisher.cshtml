@@ -1,0 +1,52 @@
+﻿@model PublisherModel
+
+<form method="post" asp-action="UpsertPublisher" enctype="multipart/form-data">
+    <input asp-for="Id" hidden />
+   
+    <div class="row">
+        <div class="col-10">
+            <div class="border mt-4 p-3 row">
+        <div class="col-12 pb-2">
+            <h2 class="text-primary">@(Model.Id!=0?"Update":"Add") Publisher</h2>
+            <hr />
+        </div>
+        @*<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" rows="3" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Country"></label>
+            <input asp-for="Country" class="form-control" />
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+        <div class="col-12">
+            @if (Model.Id != 0)
+            {
+                <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+            }
+            else
+            {
+            <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:150px">Create</button>
+            }
+            <a asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+        </div>
+    </div>
+        </div>
+        
+    </div>
+    
+</form>
+
+@section Scripts{
+       @{
+    <partial name="_ValidationScriptsPartial" />
+       }
+
+}

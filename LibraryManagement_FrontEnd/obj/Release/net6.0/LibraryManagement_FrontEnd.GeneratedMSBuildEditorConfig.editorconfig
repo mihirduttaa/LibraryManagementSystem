@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryManagement_FrontEnd
+build_property.RootNamespace = LibraryManagement_FrontEnd
+build_property.ProjectDir = C:\Users\ASUS\Downloads\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement_FrontEnd\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\Downloads\LibraryManagementSystem\LibraryManagementSystem\LibraryManagement_FrontEnd
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Account/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Authors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Authors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Authors/UpsertAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xVcHNlcnRBdXRob3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Books/UpsertBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcVXBzZXJ0Qm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Home/LendBookDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZW5kQm9va0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBookUser/ConfirmationPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tVc2VyXENvbmZpcm1hdGlvblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBookUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBookUser/PaymentPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tVc2VyXFBheW1lbnRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBookUser/ViewBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tVc2VyXFZpZXdCaWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/LendBook/ReturnBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZEJvb2tcUmV0dXJuQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Publishers/UpsertPublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xVcHNlcnRQdWJsaXNoZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Downloads/LibraryManagementSystem/LibraryManagementSystem/LibraryManagement_FrontEnd/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ojst1ncec2

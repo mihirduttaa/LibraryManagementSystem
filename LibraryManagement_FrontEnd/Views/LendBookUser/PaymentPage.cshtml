@@ -1,0 +1,37 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-6 pt-5 mt-5 text-center">
+
+            <span class="display-4 pt-5 pb-0 mb-0">&#8377; @ViewBag.TotalAmount.00/-</span><br /><span>Book Lend Payment</span>
+
+        </div>
+        <div class="col-6 p-4">
+            <p class="display-6">LMS Card Payment</p>
+            <form method="post" asp-action="ConfirmationPage">
+                <input hidden name="OrderId" value=@ViewBag.OrderId />
+                <input hidden name="TotalAmount" value=@ViewBag.TotalAmount />
+                <div class="mb-3">
+                <label class="form-label text-muted">Email</label>
+                <input class="form-control" placeholder="example@mail.com" type="email" required />
+                </div>
+                <div class="mb-3">
+                <label class="form-label text-muted">Card Information</label>
+                <input class="form-control" type="number" placeholder="1234 1234 1234 1234" required />
+                <div class="input-group">
+                <input class="form-control col-6" placeholder="MM/YY" required />
+                <input class="form-control col-6" placeholder="CVV" required />
+                </div>
+                </div>
+                <div class="mb-3">
+                <label class="form-label text-muted">Card Holder</label>
+                <input class="form-control" required />
+                </div>
+                <div class="mb-3">
+                <label class="form-label text-muted">Phone</label>
+                <input class="form-control" type="number" required />
+                </div>
+                <button class="btn btn-success btn-lg form-control">Pay</button>
+            </form>
+        </div>
+    </div>
+</div>

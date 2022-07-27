@@ -1,0 +1,104 @@
+﻿@model List<LendBookRequests>
+
+@{
+    var TotalLendAmount = 0;
+}
+
+<div class="container">
+    <div class="card" id="printableArea">
+        <div class="card-body">
+            <p class="display-6 text-center"><i class="bi bi-book-half"></i>LMS</p>
+            <hr />
+            <div class="row">
+                <div class="col-9 mt-2"><h5 class="text-muted">Customer ID: @Model[0].CustomerUserName</h5> </div>
+                <div class="col-3 mt-2 ">
+                    <ul class="text-muted" style="list-style:none">
+                        <li><h5>Invoice</h5></li>
+                        <li>ID: @Model[0].Id</li>
+                        <li>Issue Date: @DateTime.Now.ToLongDateString()</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table table-warning table-striped my-3">
+                        <thead>
+                            <tr>
+                        <th>Book Name</th>
+                        <th>Lend Date</th>
+                        <th>Charge Per Day</th>
+                        <th>Delayed Return Days</th>
+                        <th>Delayed Return Charge</th>
+                        <th>Total Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var request in Model)
+                                {
+                                    
+                                var LendDays = (DateTime.Now - @request.LendDate).Days;
+                                var charges = 0;
+                                var LendAmount = 0;
+                                var DelayedReturnDays = 0;
+                                if (LendDays < 20)
+                                {
+                                    charges = 0;
+                                    LendAmount = LendDays;
+
+                                }
+                                else
+                                {
+                                    charges = (LendDays - 20) * 2;
+                                    LendAmount = 20;
+                                    DelayedReturnDays = LendDays - 20;
+                                }
+                                TotalLendAmount += LendAmount + charges;
+                                <tr>
+                        <td>@request.BookName</td>
+                        <td>@request.LendDate.ToLongDateString()</td>
+                        <td>Rs 1</td>
+                        <td>@DelayedReturnDays</td>
+                        <td>@charges (Rs 1 per day)</td>
+                        <td>@(LendAmount+charges) Rs</td>
+                        </tr>
+                                }
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+    <hr />
+    <div class="row">
+        <div class="col text-end px-5">
+            <h5>Total Lend Amount: @TotalLendAmount Rs/-</h5>
+        </div>
+    </div>
+    </div>
+    <div class="row my-5">
+        <div class="col text-end">
+            
+             <form method="post" asp-action="PaymentPage">
+                 <input name="TotalAmount" value=@TotalLendAmount hidden />
+                 <input name="OrderId" value=@Model[0].Id hidden />
+             <button class="btn btn-primary" value="Print this page" onclick="printDiv('printableArea')"><i class="bi bi-printer-fill"></i>&nbsp;Print Invoice</button>
+             <button type="submit" class="btn btn-primary">&#8377; Pay Now</button>
+             </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script>

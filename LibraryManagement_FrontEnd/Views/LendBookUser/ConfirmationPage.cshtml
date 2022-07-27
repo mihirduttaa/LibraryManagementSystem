@@ -1,0 +1,33 @@
+﻿@model int
+<div class="container row mt-5">
+    <div  id="printableArea">
+    <div class="col-12 text-center mt-5">
+        <p class="display-2">LMS<i class="bi bi-paypal"></i></p>
+        <h3 class="text-success text-center">Payment Done Successfully</h3><br />
+    </div>
+    <div class="col-12 text-center" style="color:maroon">
+        <h4>Amount paid: @ViewBag.PaidAmount&#8377;/-</h4>
+        <br />
+        Thank you for your Payment! <br />
+        We have received your Payment and Please submit a copy of this page to the Library!
+        <br />
+        Your Payment ID is : @Model
+    </div>
+    </div>
+    </div>
+    <div class="text-center mt-3">
+     <button class="btn btn-primary" value="Print this page" onclick="printDiv('printableArea')"><i class="bi bi-printer-fill"></i>&nbsp;Print Invoice</button>
+     <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Back to Home</a>
+     </div>
+<script>
+function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script>
